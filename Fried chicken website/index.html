@@ -1,324 +1,375 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fried chicken</title>
     <!-- favicon -->
-    <link rel="icon" href="img/favicon.png">
+    <link rel="icon" href="img/favicon.png" />
     <!-- style.css -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
     <!-- remixicons -->
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
-
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css"
+    />
+    <!-- jquery -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  </head>
+  <body>
     <!-- HEADER -->
-     <header class="header" id="header">
-        <nav class="nav container">
-            <a href="#" class="nav_logo">
-                <img src="img/logo.svg" alt="">
-                <span>Fried <br> Chicken</span>
-            </a>
-            <div class="nav_menu" id="nav_menu">
-                <ul class="nav_list">
-                    <li>
-                        <a href="#home" class="nav_link active_link">HOME</a>
-                    </li>
-                     <li>
-                        <a href="#about" class="nav_link">ABOUT US </a>
-                    </li>
-                     <li>
-                        <a href="#order" class="nav_link">ORDERS</a>
-                    </li>
-                     <li>
-                        <a href="#combo" class="nav_link">COMBO</a>
-                    </li>
-                     <li>
-                        <a href="#contact" class="nav_link">CONTACT</a>
-                    </li>
-                </ul>
-                <!-- close button -->
-                 <div class="nav_close" id="nav_close">
-                    <i class="ri-close-large-line"></i>
-                 </div>
-            </div>
-            <!-- toggle buttom -->
-            <div class="nav_toggle" id="nav_toggle">
-               <i class="ri-apps-2-fill"></i>
-            </div>
-        </nav>
-     </header>
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav_logo">
+          <img src="img/logo.svg" alt="" />
+          <span
+            >Fried <br />
+            Chicken</span
+          >
+        </a>
+        <div class="nav_menu" id="nav_menu">
+          <ul class="nav_list">
+            <li>
+              <a href="#home" class="nav_link active_link">HOME</a>
+            </li>
+            <li>
+              <a href="#about" class="nav_link">ABOUT US </a>
+            </li>
+            <li>
+              <a href="#order" class="nav_link">ORDERS</a>
+            </li>
+            <li>
+              <a href="#combo" class="nav_link">COMBO</a>
+            </li>
+            <li>
+              <a href="#contact" class="nav_link">CONTACT</a>
+            </li>
+          </ul>
+          <!-- close button -->
+          <div class="nav_close" id="nav_close">
+            <i class="ri-close-large-line"></i>
+          </div>
+        </div>
+        <!-- toggle buttom -->
+        <div class="nav_toggle" id="nav_toggle">
+          <i class="ri-apps-2-fill"></i>
+        </div>
+      </nav>
+    </header>
 
     <main class="main">
-        <!-- HOME -->
-        <section class="home section" id="home">
-            <div class="home_container container grid">
-                <div class="home_data">
-                    <h1 class="home_title">
-                        Crispy & <br> 
-                        Tasty <span>Fried
-                        </span> <br> 
-                        <span>Chicken</span> 
-                    </h1>
-                    <p class="home_description">Come enjoy the best and crispiest fried 
-                    chicken made with the best ingredients, 
-                    one bite and you'll want more.</p>
-                    <a href="#about" class="button">About Fried Chicken</a>
-                    <img src="img/chicken-dam-1.png" alt="img" class="home_dam_1">
-                    <img src="img/chicken-dam-5.png" alt="img" class="home_dam_2">
-                </div>
-                <div class="home_images">
-                    <img src="img/home-img.png" alt="img" class="hero_img">
+      <!-- HOME -->
+      <section class="home section" id="home">
+        <div class="home_container container grid">
+          <div class="home_data">
+            <h1 class="home_title">
+              Crispy & <br />
+              Tasty <span>Fried </span> <br />
+              <span>Chicken</span>
+            </h1>
+            <p class="home_description">
+              Come enjoy the best and crispiest fried chicken made with the best
+              ingredients, one bite and you'll want more.
+            </p>
+            <a href="#about" class="button">About Fried Chicken</a>
+            <img src="img/chicken-dam-1.png" alt="img" class="home_dam_1" />
+            <img src="img/chicken-dam-5.png" alt="img" class="home_dam_2" />
+          </div>
+          <div class="home_images">
+            <img src="img/home-img.png" alt="img" class="hero_img" />
 
-                    <img src="img/chicken-dam-1.png" alt="img" class="home_dam_3">
-                    <img src="img/chicken-dam-2.png" alt="img" class="home_dam_4">
-                    <img src="img/chicken-dam-4.png" alt="img" class="home_dam_5">
-                </div>
-            </div>
-
-        </section>
-
-        <!-- ABOUT -->
-        <section class="about section" id="about">
-            <div class="about_container container grid">
-                <div class="about_data">
-                    <span class="section_subtitle">
-                        You'll Want To Try
-                    </span>
-                    <h2 class="section_title">
-                        More Than <br> 
-                        One Bite
-                    </h2>
-
-                    <p class="about_description">
-                        Our story begins with Grandma's recipe for the 
-                        crispiest fried chicken. Selecting the finest 
-                        ingredients and savoring it with your palate.
-                    </p>
-                    <a href="#order" class="button">Order Fried Chicken</a>
-                </div>
-                <div class="about_images">
-                    <img src="img/about-img-1.png" alt="" class="about_img_1">
-                    <img src="img/about-img-2.png" alt="" class="about_img_2">
-                    <span class="about_tooltip_1">Crispy & <br> Tasty</span>
-                    <span class="about_tooltip_2">Best Recipe <br> Since 1990</span>
-                </div>
-            </div>
-        </section>
-        
-        <!-- ORDER -->
-        <section class="order section" id="order">
-            <h2 class="section_title">
-                The Tastiest <br> 
-                & <span>Most Bitten</span>
-            </h2>
-            <div class="order_container container grid">
-                <article class="order_card">
-                    <div class="order_shape_1"></div>
-                    <img src="img/order-img-1.png" alt="" class="order_img_1">
-
-                    <div class="order_tooltip_1">
-                        <h3 class="order_title">1 Mini <br> Bucket</h3>
-                        <span class="order_subtitle">Fried chicken</span>
-                        <h3 class="order_price">$12</h3>
-
-                        <button class="order_button">
-                            <i class="ri-shopping-bag-4-fill"></i>
-                        </button>
-                    </div>
-                </article>
-
-                <article class="order_card">
-                    <div class="order_shape_2"></div>
-                    <img src="img/order-img-2.png" alt="" class="order_img_2">
-
-                    <div class="order_tooltip_2">
-                        <h3 class="order_title">2 Mini <br> Bucket</h3>
-                        <span class="order_subtitle">Fried chicken</span>
-                        <h3 class="order_price">$20</h3>
-
-                        <button class="order_button">
-                            <i class="ri-shopping-bag-4-fill"></i>
-                        </button>
-                    </div>
-                </article>
-            </div>
-        </section>
-
-        <!-- COMBO -->
-        <section class="combo section" id="combo">
-            <h2 class="section_title">
-                <span>Supreme</span> <br> 
-                Combo
-            </h2>
-            <div class="combo_container container grid">
-                <div class="combo_content">
-                    <img src="img/combo-img.png" alt="" class="combo_img">
-                    <div class="combo_numbers">
-                        <div class="combo_number">
-                            <span>1</span>
-                            <i class="ri-arrow-up-s-line"></i>
-                        </div>
-
-                        <div class="combo_number">
-                            <span>2</span>
-                            <i class="ri-arrow-up-s-line"></i>
-                        </div>
-
-                        <div class="combo_number">
-                            <span>3</span>
-                            <i class="ri-arrow-up-s-line"></i>
-                        </div>
-                    </div>
-
-                    <div class="combo_titles">
-                        <h1 class="combo_title">COMBO</h1>
-                        <h1 class="combo_title">COMBO</h1>
-                        <h1 class="combo_title">COMBO</h1>
-                        <h1 class="combo_title">COMBO</h1>
-                        <h1 class="combo_title">COMBO</h1>
-                    </div>
-
-                    <div class="combo_data">
-                        <div class="combo_info">
-                            <b>1kg of</b> <br> fried chicken
-                        </div>
-                        <div class="combo_price">$32</div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- CONTACT -->
-        <section class="contact section" id="contact">
-            <div class="contact_container container grid">
-                <div class="contact_data">
-                    <h2 class="contact_title">
-                        <span>FLAVOR</span> <br>
-                        THAT <br>
-                        STAYS IN <br>
-                        THE MOUTH
-                    </h2>
-                    <img src="img/contact-img-1.png" alt="" class="contact_img_1">
-                    <img src="img/contact-img-2.png" alt="" class="contact_img_2">
-
-                    <img src="img/chicken-dam-6.png" alt="" class="contact_dam_1">
-                    <img src="img/chicken-dam-4.png" alt="" class="contact_dam_2">
-                    <img src="img/chicken-dam-1.png" alt="" class="contact_dam_3">
-                    <img src="img/chicken-dam-2.png" alt="" class="contact_dam_4">
-                </div>
-                <div class="contact_info grid">
-                    <div>
-                        <h3 class="contact_subtitle">Write to us</h3>
-                        <div class="contact_social">
-                            <a href="#" target="_blank" class="contact_social_link">
-                                <i class="ri-whatsapp-fill"></i>
-                            </a>
-
-                            <a href="#" target="_blank" class="contact_social_link">
-                                <i class="ri-messenger-fill"></i>
-                            </a>
-
-                            <a href="#" target="_blank" class="contact_social_link">
-                                <i class="ri-telegram-2-fill"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <div>
-                        <h3 class="contact_subtitle">Delivery</h3>
-
-                        <address class="contact_address">
-                            +00-987-654-321 <br>
-                            +11-012345
-                        </address>
-                    </div>
-
-                    <div>
-                        <h3 class="contact_subtitle">Location</h3>
-
-                        <address class="contact_address">
-                            Lima - Sun City - Peru <br>
-                            Av. Moon #4321
-                        </address>
-                    </div>
-
-                    <div>
-                        <h3 class="contact_subtitle">Attention</h3>
-
-                        <address class="contact_address">
-                            Monday to Sunday <br>
-                            5pm - 11pm
-                        </address>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-    
-    <!-- FOOTER -->
-     <footer class="footer">
-        <div class="footer_container container grid">
-            <a href="#" class="footer_logo">
-                <img src="img/logo.svg" alt="">
-                <span>Fried <br> Chicken</span>
-            </a>
-
-            <div class="footer_content grid">
-                <div>
-                    <h3 class="footer_title">Social</h3>
-
-                    <div class="footer_social">
-                        <a href="#" target="_blank" class="footer_social_link">
-                            <i class="ri-facebook-circle-fill"></i>
-                        </a>
-
-                        <a href="#" target="_blank" class="footer_social_link">
-                            <i class="ri-instagram-fill"></i>
-                        </a>
-
-                        <a href="#" target="_blank" class="footer_social_link">
-                            <i class="ri-twitter-x-fill"></i>
-                        </a>
-                    </div>
-                </div>
-
-                <div>
-                    <h3 class="footer_title">Payment methods</h3>
-
-                    <div class="footer_pay">
-                        <img src="img/footer-card-1.png" alt="" class="footer_pay_card">
-                        <img src="img/footer-card-2.png" alt="" class="footer_pay_card">
-                        <img src="img/footer-card-3.png" alt="" class="footer_pay_card">
-                        <img src="img/footer-card-4.png" alt="" class="footer_pay_card">
-                    </div>
-                </div>
-
-                <div>
-                    <h3 class="footer_title">Subscribe For Offers</h3>
-                    <form action="" class="footer_form">
-                        <input type="email" placeholder="Email" class="footer_input">
-                        <button type="submit" class="footer_button button">
-                            Subscribe
-                        </button>
-                    </form>
-                </div>
-            </div>
+            <img src="img/chicken-dam-1.png" alt="img" class="home_dam_3" />
+            <img src="img/chicken-dam-2.png" alt="img" class="home_dam_4" />
+            <img src="img/chicken-dam-4.png" alt="img" class="home_dam_5" />
+          </div>
         </div>
+      </section>
 
-        <span class="footer_copy">
-            &#169; All Rights Reserved By Bedimcode
-        </span>
-     </footer>
+      <!-- ABOUT -->
+      <section class="about section" id="about">
+        <div class="about_container container grid">
+          <div class="about_data">
+            <span class="section_subtitle"> You'll Want To Try </span>
+            <h2 class="section_title">
+              More Than <br />
+              One Bite
+            </h2>
+
+            <p class="about_description">
+              Our story begins with Grandma's recipe for the crispiest fried
+              chicken. Selecting the finest ingredients and savoring it with
+              your palate.
+            </p>
+            <a href="#order" class="button">Order Fried Chicken</a>
+          </div>
+          <div class="about_images">
+            <img src="img/about-img-1.png" alt="" class="about_img_1" />
+            <img src="img/about-img-2.png" alt="" class="about_img_2" />
+            <span class="about_tooltip_1"
+              >Crispy & <br />
+              Tasty</span
+            >
+            <span class="about_tooltip_2"
+              >Best Recipe <br />
+              Since 1990</span
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- ORDER -->
+      <section class="order section" id="order">
+        <h2 class="section_title">
+          The Tastiest <br />
+          & <span>Most Bitten</span>
+        </h2>
+        <div class="order_container container grid">
+          <article class="order_card">
+            <div class="order_shape_1"></div>
+            <img src="img/order-img-1.png" alt="" class="order_img_1" />
+
+            <div class="order_tooltip_1">
+              <h3 class="order_title">
+                1 Mini <br />
+                Bucket
+              </h3>
+              <span class="order_subtitle">Fried chicken</span>
+              <h3 class="order_price">$12</h3>
+
+              <button class="order_button">
+                <i class="ri-shopping-bag-4-fill"></i>
+              </button>
+            </div>
+          </article>
+
+          <article class="order_card">
+            <div class="order_shape_2"></div>
+            <img src="img/order-img-2.png" alt="" class="order_img_2" />
+
+            <div class="order_tooltip_2">
+              <h3 class="order_title">
+                2 Mini <br />
+                Bucket
+              </h3>
+              <span class="order_subtitle">Fried chicken</span>
+              <h3 class="order_price">$20</h3>
+
+              <button class="order_button">
+                <i class="ri-shopping-bag-4-fill"></i>
+              </button>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- COMBO -->
+      <section class="combo section" id="combo">
+        <h2 class="section_title">
+          <span>Supreme</span> <br />
+          Combo
+        </h2>
+        <div class="combo_container container grid">
+          <div class="combo_content">
+            <img src="img/combo-img.png" alt="" class="combo_img" />
+            <div class="combo_numbers">
+              <div class="combo_number">
+                <span>1</span>
+                <i class="ri-arrow-up-s-line"></i>
+              </div>
+
+              <div class="combo_number">
+                <span>2</span>
+                <i class="ri-arrow-up-s-line"></i>
+              </div>
+
+              <div class="combo_number">
+                <span>3</span>
+                <i class="ri-arrow-up-s-line"></i>
+              </div>
+            </div>
+
+            <div class="combo_titles">
+              <h1 class="combo_title">COMBO</h1>
+              <h1 class="combo_title">COMBO</h1>
+              <h1 class="combo_title">COMBO</h1>
+              <h1 class="combo_title">COMBO</h1>
+              <h1 class="combo_title">COMBO</h1>
+            </div>
+
+            <div class="combo_data">
+              <div class="combo_info">
+                <b>1kg of</b> <br />
+                fried chicken
+              </div>
+              <div class="combo_price">$32</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section class="contact section" id="contact">
+        <div class="contact_container container grid">
+          <div class="contact_data">
+            <h2 class="contact_title">
+              <span>FLAVOR</span> <br />
+              THAT <br />
+              STAYS IN <br />
+              THE MOUTH
+            </h2>
+            <img src="img/contact-img-1.png" alt="" class="contact_img_1" />
+            <img src="img/contact-img-2.png" alt="" class="contact_img_2" />
+
+            <img src="img/chicken-dam-6.png" alt="" class="contact_dam_1" />
+            <img src="img/chicken-dam-4.png" alt="" class="contact_dam_2" />
+            <img src="img/chicken-dam-1.png" alt="" class="contact_dam_3" />
+            <img src="img/chicken-dam-2.png" alt="" class="contact_dam_4" />
+          </div>
+          <div class="contact_info grid">
+            <div>
+              <h3 class="contact_subtitle">Write to us</h3>
+              <div class="contact_social">
+                <a href="#" target="_blank" class="contact_social_link">
+                  <i class="ri-whatsapp-fill"></i>
+                </a>
+
+                <a href="#" target="_blank" class="contact_social_link">
+                  <i class="ri-messenger-fill"></i>
+                </a>
+
+                <a href="#" target="_blank" class="contact_social_link">
+                  <i class="ri-telegram-2-fill"></i>
+                </a>
+              </div>
+            </div>
+            <div>
+              <h3 class="contact_subtitle">Delivery</h3>
+
+              <address class="contact_address">
+                +00-987-654-321 <br />
+                +11-012345
+              </address>
+            </div>
+
+            <div>
+              <h3 class="contact_subtitle">Location</h3>
+
+              <address class="contact_address">
+                Lima - Sun City - Peru <br />
+                Av. Moon #4321
+              </address>
+            </div>
+
+            <div>
+              <h3 class="contact_subtitle">Attention</h3>
+
+              <address class="contact_address">
+                Monday to Sunday <br />
+                5pm - 11pm
+              </address>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer_container container grid">
+        <a href="#" class="footer_logo">
+          <img src="img/logo.svg" alt="" />
+          <span
+            >Fried <br />
+            Chicken</span
+          >
+        </a>
+
+        <div class="footer_content grid">
+          <div>
+            <h3 class="footer_title">Social</h3>
+
+            <div class="footer_social">
+              <a href="#" target="_blank" class="footer_social_link">
+                <i class="ri-facebook-circle-fill"></i>
+              </a>
+
+              <a href="#" target="_blank" class="footer_social_link">
+                <i class="ri-instagram-fill"></i>
+              </a>
+
+              <a href="#" target="_blank" class="footer_social_link">
+                <i class="ri-twitter-x-fill"></i>
+              </a>
+            </div>
+          </div>
+
+          <div>
+            <h3 class="footer_title">Payment methods</h3>
+
+            <div class="footer_pay">
+              <img src="img/footer-card-1.png" alt="" class="footer_pay_card" />
+              <img src="img/footer-card-2.png" alt="" class="footer_pay_card" />
+              <img src="img/footer-card-3.png" alt="" class="footer_pay_card" />
+              <img src="img/footer-card-4.png" alt="" class="footer_pay_card" />
+            </div>
+          </div>
+
+          <div>
+            <h3 class="footer_title">Subscribe For Offers</h3>
+            <form action="" class="footer_form">
+              <input type="email" placeholder="Email" class="footer_input" />
+              <button type="submit" class="footer_button button">
+                Subscribe
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <span class="footer_copy"> &#169; All Rights Reserved By Bedimcode </span>
+    </footer>
 
     <!-- scroll up -->
-     <a href="#" class="scrollup" id="scrollup">
-        <i class="ri-arrow-up-line"></i>
-     </a>
+    <a href="#" class="scrollup" id="scrollup">
+      <i class="ri-arrow-up-line"></i>
+    </a>
+
+    <!-- STICKY SOCIALBAR -->
+     <div class="icon-bar">
+        <a href="#" class="facebook"><i class="ri-facebook-circle-fill"></i></a>
+        <a href="#" class="instagram">
+        <i class="ri-instagram-fill"></i>
+        </a>
+        <a href="#" class="youtube"><i class="ri-youtube-fill"></i></a>
+    </div>
+
+
 
 
 
     <!-- main js -->
-     <script src="js/main.js"></script>
-</body>
+    <script src="js/main.js"></script>
+
+    <!-- jquery -->
+    <script>
+
+    $(document).ready(function(){
+      $(".about").mouseenter(function(){
+      $(".about_data").fadeIn(2000);
+      $(".about_images").fadeIn(2000);
+    });
+
+    $(".order_container").mouseenter(function(){
+    $(".order_card").animate({right: '0rem'});
+    });
+
+    $(".contact_container").mouseenter(function(){
+    $(".contact_data").animate({left: '0rem'});
+    $(".contact_info").animate({right: '0rem'});
+    });
+
+    });
+
+    </script>
+  </body>
 </html>
