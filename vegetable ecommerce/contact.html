@@ -89,11 +89,13 @@
             <h1>get in touch</h1>
             <p class="c_para">The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done.</p>
          <div class="contact_left">
-            <input type="text" placeholder="your name"> <br>
-            <input type="email" placeholder="enter your emil"> <br>
-            <textarea placeholder="your message"></textarea> <br>
+          <form name="form_contact" action="connect.php" method="post">
+            <input type="text" placeholder="your name" name="txtName" value="" required> <br>
+            <input type="email" placeholder="enter your email" name="txtEmail" value="" required> <br>
+            <textarea placeholder="your message" name="txtMessage" required></textarea> <br>
             <button class="contact_submit_btn">submit</button>
             <br>
+            </form>
          </div>
 
          <div class="contact_right">

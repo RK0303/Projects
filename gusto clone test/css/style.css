@@ -314,6 +314,7 @@ body {
 .contact {
   float: left;
   width: 100%;
+
   text-align: center;
   background-color: #333333;
   padding-bottom: 4em;
@@ -322,6 +323,7 @@ body {
 .contact1 {
   float: left;
   width: 33.3%;
+  margin-bottom: 6rem;
 }
 
 .contact1 h3 {
@@ -355,6 +357,82 @@ body {
   font-weight: 400;
   color: #777;
   margin: 5px auto;
+}
+
+.message_box h3{
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 400;
+  color: #aaa;
+  padding: 20px 0;
+  position: relative;
+}
+.message_box{
+  width: 100%;
+}
+.message_box h3::after{
+  position: absolute;
+  content: "";
+  background: #d43031;
+  height: 2px;
+  width: 40px;
+  bottom: 0;
+  margin-left: -20px;
+  left: 50%;
+}
+
+form{
+  margin-top: 2rem;
+}
+.input1{
+  width: 20%;
+  margin-right: 10px;
+  padding: 6px 12px;
+  font-size: 16px;
+  line-height: 1.42857143;
+  color: #ccc;
+  background-color: rgba(255,255,255,.2);
+  border: none;
+}
+.input2{
+  width: 20%;
+  margin-left: 10px;
+  padding: 6px 12px;
+  font-size: 16px;
+  line-height: 1.42857143;
+  color: #ccc;
+  background-color: rgba(255,255,255,.2);
+  border: none;
+}
+textarea{
+  margin-top: 1rem;
+  width: 43%;
+  height: 5rem;
+  padding: 6px 12px;
+  font-size: 16px;
+  line-height: 1.42857143;
+  color: #ccc;
+  background-color: rgba(255,255,255,.2);
+  background-image: none;
+  border: 0;
+}
+
+.send_btn{
+  text-transform: uppercase;
+  color: #777;
+  background-color: transparent;
+  border: 2px solid #777;
+  padding: 14px 20px;
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.send_btn:hover{
+  background-color: #d43031;
+  color: #f7f7f7;
+  border: 2px solid #d43031;
+
 }
 
 .footer {
